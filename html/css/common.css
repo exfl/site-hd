@@ -1,0 +1,117 @@
+
+/*-------------------------
+オーバーライド
+-------------------------*/
+.grid-pad {
+	padding: 0;
+}
+
+/*-------------------------
+tag
+-------------------------*/
+body{
+	background-color: #eee;
+	color: #000;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*-------------------------
+枠
+-------------------------*/
+#HEAD{
+	overflow: hidden;
+	background-color: #000;
+	border-bottom: 2px solid #26ADE4;
+}
+#MAIN{
+	overflow: hidden;
+	background-color: #fff;
+
+}
+#FOOT{
+	overflow: hidden;
+	background-color: #000;
+	border-top: 2px solid #26ADE4;
+	color: #fff;
+	font-size: 0.8rem;
+}
+
+/*-------------------------
+commmon
+-------------------------*/
+@font-face {
+	font-family: 'pso2_fontregular';
+	src: url('../font/pso2_font-webfont.eot');
+	src: url('../font/pso2_font-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/pso2_font-webfont.woff2') format('woff2'),
+		url('../font/pso2_font-webfont.woff') format('woff'),
+		url('../font/pso2_font-webfont.ttf') format('truetype'),
+		url('../font/pso2_font-webfont.svg#pso2_fontregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.goto-top{
+	display: block;
+	clear: both;
+	text-align: right;
+}
+	.goto-top a{
+		display: inline-block;
+		background-color: #26ADE4;
+		border-radius: 5px 5px 0 0;
+		padding: 0.5em 0.5em 0 0.5em;
+		color: #D1E751;
+	}
+
+
+/*-------------------------
+parts
+-------------------------*/
+#HEAD .title{
+	margin: 10px;
+}
+	#HEAD .title a{
+		font-size: 2rem;
+		line-height: 1em;
+		color: #D1E751;
+	}
+	#HEAD .title .title-pso2font{
+		font-size: 0.8rem;
+		line-height: 1rem;
+		color: #fff;
+		font-family: 'pso2_fontregular';
+	}
+
+#MAIN .g-navi{
+	background-color: #eee;
+}
+
+#FOOT .breadcrumbs{
+	overflow: hidden;
+}
+	#FOOT .breadcrumbs ul{
+		margin: 10px 0;
+		padding: 0;
+		list-style: none;
+	}
+		#FOOT .breadcrumbs ul li{
+			display: inline-block;
+		}
+		#FOOT .breadcrumbs ul li.active{
+			color: #D1E751;
+		}
+			#FOOT .breadcrumbs ul li a{
+				color: #fff;
+			}
+
+
+
+/*-------------------------
+-------------------------*/
+
+
