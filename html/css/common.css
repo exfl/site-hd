@@ -3,25 +3,32 @@
 オーバーライド
 -------------------------*/
 .grid-pad {
-	padding: 0;
+	/*padding: 0;*/
 }
 
 /*-------------------------
 tag
 -------------------------*/
 body{
-	background-color: #eee;
+	background-color: #666;
+	background-image: url(../img/bg_body.jpg);
+	background-attachment: fixed;
+	background-position: center center;
 	color: #000;
 }
 a{
 	text-decoration: none;
 }
-a:hover{
-	text-decoration: underline;
-}
+	a:hover{
+		text-decoration: underline;
+	}
+	a:hover img{ opacity: 0.8; }
 /*-------------------------
 枠
 -------------------------*/
+#WRAP{
+	background-color: rgba(0,0,0,0.2);
+}
 #HEAD{
 	overflow: hidden;
 	background-color: #000;
@@ -29,15 +36,22 @@ a:hover{
 }
 #MAIN{
 	overflow: hidden;
-	background-color: #fff;
-
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+#GOTOP{
+	display: block;
+	clear: both;
+	text-align: right;
+	margin-top: 20px;
 }
 #FOOT{
 	overflow: hidden;
 	background-color: #000;
-	border-top: 2px solid #26ADE4;
 	color: #fff;
 	font-size: 0.8rem;
+	min-height: 150px;
+	border-top: 2px solid #26ADE4;
 }
 
 /*-------------------------
@@ -55,25 +69,35 @@ commmon
 	font-style: normal;
 }
 
-.goto-top{
-	display: block;
-	clear: both;
-	text-align: right;
+.btn{
+	display: inline-block;
+	padding: 10px;
+	color: #fff;
+	border: 2px solid #fff;
+	text-decoration: none;
 }
-	.goto-top a{
-		display: inline-block;
-		background-color: #26ADE4;
-		border-radius: 5px 5px 0 0;
-		padding: 0.5em 0.5em 0 0.5em;
-		color: #D1E751;
+	a:hover.btn{
+		background-color: #4DBCE9;
+		border-color: #4DBCE9;
+		text-decoration: none;
+	}
+	.btn.btn-default{
 	}
 
+
+
+
+
+#twitter-widget-0.twitter-timeline{
+	width: 100% !important;
+	max-width: none !important;
+}
 
 /*-------------------------
 parts
 -------------------------*/
 #HEAD .title{
-	margin: 10px;
+	margin-bottom: 20px;
 }
 	#HEAD .title a{
 		font-size: 2rem;
@@ -88,7 +112,34 @@ parts
 	}
 
 #MAIN .g-navi{
-	background-color: #eee;
+	background-color: rgba(0,0,0,0.3);
+	min-height: 300px;
+	padding-top: 10px;
+	color: #000;
+}
+	#MAIN .g-navi ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+		#MAIN .g-navi ul li{
+
+		}
+			#MAIN .g-navi ul li a{
+				display: block;
+				padding: 10px 20px;
+				color: #fff;
+			}
+
+
+
+
+#GOTOP a{
+	display: inline-block;
+	background-color: #26ADE4;
+	border-radius: 5px 5px 0 0;
+	padding: 0.5em 0.5em 0 0.5em;
+	color: #fff;
 }
 
 #FOOT .breadcrumbs{
