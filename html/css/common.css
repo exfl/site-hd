@@ -4,6 +4,7 @@
 tag
 -------------------------*/
 body{
+	min-width: 1024px;
 	background-color: #666;
 	background-image: url(../img/bg_body.jpg);
 	background-attachment: fixed;
