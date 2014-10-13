@@ -1,13 +1,6 @@
 @charset "utf-8";
 
 /*-------------------------
-Overwrite
--------------------------*/
-.grid-pad {
-	/*padding: 0;*/
-}
-
-/*-------------------------
 tag
 -------------------------*/
 body{
@@ -36,7 +29,6 @@ a{
 #WRAP{
 	background-color: rgba(0,0,0,0.2);
 }
-#nosupport-message{ display: none; }
 #HEAD{
 	overflow: hidden;
 	background-color: #000;
@@ -181,8 +173,7 @@ parts
 			#MAIN .side-content .g-navi ul li{
 
 			}
-			#MAIN .side-content .g-navi ul li:hover,
-			#MAIN .side-content .g-navi ul li.active{
+			#MAIN .side-content .g-navi ul li:hover{
 				background-color: rgba(0,0,0,0.1);
 			}
 				#MAIN .side-content .g-navi ul li a,
@@ -192,9 +183,7 @@ parts
 					color: #fff;
 					text-decoration: none;
 				}
-				#MAIN .side-content .g-navi ul li.active span{
-					color: #D1E751;
-				}
+
 
 #MAIN .main-visual{
 

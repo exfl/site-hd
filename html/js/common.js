@@ -31,5 +31,3 @@ $(function(){
 		// $(this).parent(".more-content").toggleClass('close');
 	});
 });
-
-
