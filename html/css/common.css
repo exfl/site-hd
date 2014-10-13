@@ -75,14 +75,22 @@ commmon
 	border: 2px solid #fff;
 	text-decoration: none;
 }
-	a:hover.btn{
+	.btn:hover{
 		background-color: #4DBCE9;
 		border-color: #4DBCE9;
 		text-decoration: none;
 	}
-	.btn.btn-default{
-	}
 
+.more-content {
+}
+	.more-content .more-content-btn{
+		text-align: right;
+	}
+	.more-content .more-content-btn.active{ opacity: 0.5; }
+	.more-content .more-content-container{
+		display: none;
+		overflow: hidden;
+	}
 
 /* flexslider Overwrite */
 .flexslider {

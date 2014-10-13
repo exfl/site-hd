@@ -21,3 +21,13 @@ $(function(){
 		return false;
 	});
 });
+
+// 折りたたみ
+$(function(){
+	$(".more-content .more-content-btn").on("click", function() {
+		$(this).next().slideToggle();
+		$(this).toggleClass('active');
+		// $(this).parent(".more-content").toggleClass('open');
+		// $(this).parent(".more-content").toggleClass('close');
+	});
+});
