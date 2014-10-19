@@ -14,7 +14,7 @@ body{
 	font-size: 16px;
 	line-height: 1.5;
 	color: #fff;
-	text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
 }
 a{
 	color: #4DBCE9;
@@ -155,12 +155,12 @@ parts
 	}
 
 #MAIN .side-content{
-	background: -moz-linear-gradient(top,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0)));
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
-	background: -o-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
-	background: -ms-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
-	background: linear-gradient(to bottom,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%);
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.4)), color-stop(100%,rgba(0,0,0,0)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#00000000',GradientType=0 );
 
 	min-height: 400px;
@@ -169,6 +169,7 @@ parts
 }
 	#MAIN .side-content .g-navi{
 		font-size: 1.3em;
+		font-weight: bold;
 	}
 		#MAIN .side-content .g-navi ul{
 			margin: 0;
@@ -203,7 +204,7 @@ parts
 	}
 */
 #MAIN .main-content{
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.4);
 	margin: 20px 0;
 	padding: 0 0 20px 0;
 	/*border:1px solid rgba(255,255,255,0.2);*/
@@ -217,6 +218,7 @@ parts
 	}
 	#MAIN .main-content p{
 		margin: 20px;
+		font-weight: bold;
 	}
 	#MAIN .main-content .twitter-timeline{
 		width: 100% !important;
@@ -249,6 +251,9 @@ parts
 		border-left: none;
 	}
 
+.mail_text:before{
+	content: "halcyondayspso2@gmail.com";
+}
 
 
 /*-------------------------
