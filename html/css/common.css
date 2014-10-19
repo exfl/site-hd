@@ -138,6 +138,7 @@ parts
 }
 	#HEAD .title a{
 		font-size: 2rem;
+		font-weight: bold;
 		line-height: 1em;
 		color: #D1E751;
 		text-decoration: none;
